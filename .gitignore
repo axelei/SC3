@@ -1,0 +1,14 @@
+# game data and generated output - never committed
+/ORIGINAL/
+/SC3E/
+
+# extracted assets: only our font changes (and the charmap they depend on) are tracked
+/ASSETS/*
+!/ASSETS/charmap.json
+!/ASSETS/graphics/
+/ASSETS/graphics/*
+!/ASSETS/graphics/fonts/
+
+__pycache__/
+*.pyc
+*.log
